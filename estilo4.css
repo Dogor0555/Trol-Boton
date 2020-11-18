@@ -1,0 +1,85 @@
+*{
+  padding         :                     0;
+  margin          :                     0;
+
+
+}
+
+
+
+body{
+  width           :                 100vw;
+  height          :                 100vh;
+  background      :            #24242c;
+  display         :                  flex;
+  font-family     :    'Goldman', cursive;
+}
+
+
+
+h1{
+	margin        :                  auto;
+	margin-top    :                 200px;
+	color          :            #cecece;
+}
+
+
+
+.button{
+	position       :              absolute;
+	top            :                   50%; 
+	transform      :      translateY(-50%);
+	text-decoration:                  none; 
+	background     :            #E14658;
+	color          :            #3F3250;
+	padding        :             20px 35px;
+	font-size      :                  50px;
+    border-radius  :                  30px; 
+    box-shadow     :  0px 0px 200px 30px #E14658;
+    font-family     :    'Goldman', cursive;
+
+}
+
+
+
+#btnSi{
+	left          :                  20%; 
+    transform     :      translateY(-50%) translateX(-20%);
+
+}
+
+
+#btnNo{
+	left          :                  80%; 
+    transform     :      translateY(-50%) translateX(-80%);
+
+}
+
+
+
+#icono_cerrar{
+  position: absolute;
+  top: 0px;
+  right: 6px;
+}
+
+
+
+.ventana{
+
+  width: 35%;
+  background: #3F3250;
+  color: #cecece;
+  font-family: 'Calibri';
+  font-size: 30px;
+  text-align: center;
+  padding: 35px;
+  min-height: 5%;
+  border-radius: 12px;
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  border:3px solid #E14658;
+  box-shadow: 5px 5px 15px #000;
+  display: none;
+}
